@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home'
-import Login from './pages/Login'
-import Register from './pages/Register'
+import Login from './auth/Login'
+import Register from './auth/Register'
 import NotFound from './pages/NotFound'
 import Support from './pages/Support';
 
